@@ -10,7 +10,7 @@ export class Enhance {
       __DEV__ && console.warn(TAG, "not supported on", Platform.OS);
       return;
     }
-    RNEnhance.logEvent(event, key, value);
+    return RNEnhance.logEvent(event, key, value);
   }
 
   static hideOverlayAd() {
@@ -19,7 +19,7 @@ export class Enhance {
       __DEV__ && console.warn(TAG, "not supported on", Platform.OS);
       return;
     }
-    RNEnhance.hideOverlayAd();
+    return RNEnhance.hideOverlayAd();
   }
 
   static showOverlayAdWithPosition(position) {
@@ -28,7 +28,7 @@ export class Enhance {
       __DEV__ && console.warn(TAG, "not supported on", Platform.OS);
       return;
     }
-    RNEnhance.showOverlayAdWithPosition(position);
+    return RNEnhance.showOverlayAdWithPosition(position);
   }
 
   static showInterstitialAd() {
@@ -37,7 +37,7 @@ export class Enhance {
       __DEV__ && console.warn(TAG, "not supported on", Platform.OS);
       return;
     }
-    RNEnhance.showInterstitialAd();
+    return RNEnhance.showInterstitialAd();
   }
 
   static showSpecialOffer() {
@@ -46,6 +46,6 @@ export class Enhance {
       __DEV__ && console.warn(TAG, "not supported on", Platform.OS);
       return;
     }
-    RNEnhance.showSpecialOffer();
+    return RNEnhance.showSpecialOffer();
   }
 }
