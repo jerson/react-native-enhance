@@ -10,10 +10,10 @@ import com.facebook.react.module.annotations.ReactModule;
 import com.fgl.enhance.connector.FglEnhance;
 
 public class RNEnhanceModule extends ReactContextBaseJavaModule
-    implements MainApplication.ServiceListener, LifecycleEventListener {
+    implements  LifecycleEventListener {
 
   private static final String TAG = "RNEnhance";
-  private ReactApplicationContext context;
+  private ReactApplicationContext reactContext;
   private boolean isLoaded;
 
   public RNEnhanceModule(ReactApplicationContext reactContext) {
