@@ -28,7 +28,7 @@ Enhance support for **Android**
   	```
       compile project(':react-native-enhance')
   	```
-4. Add `FGL-Enhance-Connector.jar` to your Android libs
+4. Add `FGL-Enhance-Connector.jar` to your `android/app/libs/enhance` dir
 
  
 ## Usage
