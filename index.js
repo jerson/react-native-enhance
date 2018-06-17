@@ -3,7 +3,7 @@ import { NativeModules, Platform } from "react-native";
 const { RNEnhance } = NativeModules;
 
 const TAG = "[Enhance]";
-export class Enhance {
+export default class Enhance {
   static logEvent(event, key = "", value = "") {
     __DEV__ && console.debug(TAG, "logEvent", event, key, value);
     if (Platform.OS !== "android") {
